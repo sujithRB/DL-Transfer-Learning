@@ -280,12 +280,14 @@ predict_image(model,image_index=25,dataset=test_dataset)
 
 ## Confusion Matrix
 
-<img width="1362" height="921" alt="Screenshot 2026-05-18 133529" src="https://github.com/user-attachments/assets/8b537a1a-b566-4b7d-9cee-5c02f75ef914" />
+<img width="827" height="882" alt="Screenshot 2026-05-21 084603" src="https://github.com/user-attachments/assets/60220905-b06a-4dd1-8e6a-016ed240d8b4" />
+
 
 
 ## Classification Report
 
-<img width="610" height="252" alt="Screenshot 2026-05-18 133611" src="https://github.com/user-attachments/assets/afe6c0f6-c9f6-46ef-85df-641e5c30a574" />
+<img width="808" height="245" alt="Screenshot 2026-05-21 084714" src="https://github.com/user-attachments/assets/829b423c-d7ca-4877-8e65-f905644e1b13" />
+
 
 ### New Sample Data Prediction
 
