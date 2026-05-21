@@ -35,9 +35,9 @@ Evaluate the model with test accuracy, confusion matrix, classification report, 
 
 ## PROGRAM
 
-### Name:AJITH A
+### Name:SUJITH RB
 
-### Register Number:212224230012
+### Register Number:212224103003
 
 ```
 from google.colab import drive
@@ -176,8 +176,8 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
       print(f'Epoch [{epoch+1}/{num_epochs}], Train Loss: {train_losses[-1]:.4f}, Validation Loss: {val_losses[-1]:.4f}')
 
     # Plot training and validation loss 
-    print("Name:AJITH A")
-    print("Register Number: 212224230012")
+    print("Name:SUJITH RB")
+    print("Register Number: 212224103003")
     plt.figure(figsize=(8, 6))
     plt.plot(range(1, num_epochs + 1), train_losses, label='Train Loss', marker='o')
     plt.plot(range(1, num_epochs + 1), val_losses, label='Validation Loss', marker='s')
@@ -219,8 +219,8 @@ def test_model(model, test_loader):
 
     # Compute confusion matrix
     cm = confusion_matrix(all_labels, all_preds)
-    print("Name:AJITH A")
-    print("Register Number: 212224230012")
+    print("Name:SUJITH RB")
+    print("Register Number: 212224103003")
     plt.figure(figsize=(8, 6))
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=train_dataset.classes, yticklabels=train_dataset.classes)
     plt.xlabel('Predicted')
@@ -229,8 +229,8 @@ def test_model(model, test_loader):
     plt.show()
 
     # Print classification report
-    print("Name: AJITH A")
-    print("Register Number: 212224230012")
+    print("Name: SUJITH RB")
+    print("Register Number: 212224103003")
     print("Classification Report:")
     print(classification_report(all_labels, all_preds, target_names=train_dataset.classes))
 
